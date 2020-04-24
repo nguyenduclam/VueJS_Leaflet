@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Template v-on</title>
+</head>
+<body>
+<div id="clickDOM">
+    <button v-on:click="counter += 1">Count click</button>
+    <p>Clicked {{ counter }} times</p>
+</div>
+
+<script src="../../vue_js/vue.js"></script>
+<script>
+    /*** Nên tạo 1 thẻ div để điều khiển các component bên trong ***/
+    var app = new Vue({
+        el: '#clickDOM',
+        name: 'pestool',
+        data() {
+            return {
+                counter: 0
+            }
+        }
+    });
+</script>
+</body>
+</html>

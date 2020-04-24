@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Tempalte v-if</title>
+</head>
+<body>
+<section>
+    <div id="info_test">
+        <h3>Your information</h3>
+        <p>Name: <input v-model="user.name" type="text" placeholder="name"></p>
+        <p>Gender:
+            <select v-model="user.gender" name="gender" id="">
+                <option value="1" selected disabled>---Select your gender---</option>
+                <option value="2">Male</option>
+                <option value="3">Female</option>
+                <option value="4">Other</option>
+            </select>
+        </p>
+        <h1 v-if="user.name == null && user.gender == null" style="color: orange">Welcome to my app</h1>
+        <h1 v-else-if="user.gender == 2 && user.name != null" style="color: green">Hello Sir, {{user.name}}</h1>
+        <h1 v-else-if="user.gender == 3 && user.name != null" style="color: red">Hello Madam, {{user.name}}</h1>
+        <h1 v-else style="color: black">Hello</h1>
+        <br>
+        <br>
+    </div>
+</section>
+
+<script src="../../vue_js/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#info_test',
+        name: 'test v-if',
+        data () {
+            return {
+                user: {}
+            }
+        }
+    });
+</script>
+</body>
+</html>

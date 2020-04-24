@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Template v-for</title>
+</head>
+<body>
+<section class="second-section">
+    <div class="row" id="flag_test">
+        <!-- Tạo :key sau đó tạo v-for = ":key of {tên mảng}" -->
+        <div :key="nation" class="nation" v-for="nation of nations">
+            <h4>{{ nation.name }}</h4>
+            <img :src="nation.flag">
+        </div>
+    </div>
+</section>
+
+<script src="../../vue_js/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#flag_test',
+        name: 'second-section',
+        data() {
+            return {
+                nations: [
+                    {name: 'Japan', flag: 'http://flags.fmcdn.net/data/flags/w580/jp.png'},
+                    {name: 'Korea', flag: 'http://flags.fmcdn.net/data/flags/w580/kr.png'},
+                    {name: 'Vietnam', flag: 'http://flags.fmcdn.net/data/flags/w580/vn.png'}
+                ]
+            }
+        }
+    })
+</script>
+</body>
+</html>

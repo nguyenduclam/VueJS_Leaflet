@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Template</title>
+</head>
+<body>
+<div class="body">
+    <nav>
+        <h2>My Profile</h2>
+        <div v-bind="user" id="user_directive">
+            <img :src="user.avatar" class="avatar">
+            <br>
+            <b>My name:</b>
+            <p>{{ user.name }}</p>
+            <br>
+            <b>Date Of Birth:</b>
+            <p>{{ user.dob }}</p>
+            <br>
+            <b>Job:</b>
+            <p>{{ user.job }}</p>
+        </div>
+    </nav>
+</div>
+
+<script src="../../vue_js/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#user_directive',
+        name: 'myprofile',
+        data() {
+            return {
+                user: {
+                    name: 'Vương Minh Thái',
+                    dob: '',
+                    job: 'developer',
+                    avatar: 'https://vuonhoaviet.vn/wp-content/uploads/2017/10/92.-Hoa-h%E1%BB%93ng-ngo%E1%BA%A1i-Blue-Storm.jpg'
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

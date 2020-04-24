@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45808a29-9818-40af-a2b5-935c31ab14df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/VueJS_Tutorial/Vue_Instance_and_Vue_Template/vue_template_v-model.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/README.md" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/VueJS_Tutorial/Vue_Instance_and_Vue_Template/vue_template_v-if.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/VueJS_Tutorial/Vue_Instance_and_Vue_Template/vue_ template_v-on.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/VueJS_Tutorial/Vue_Instance_and_Vue_Template/vue_template.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/VueJS_Tutorial/Vue_Instance_and_Vue_Template/vue_instance_v-bind.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/VueJS_Tutorial/Welcome_to_VueJS/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/VueLeafletJS_Tutorial/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/VueJS_Tutorial/Vue_Instance_and_Vue_Template/vue_template_v-for.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1axwrCdZSkxILhCHoRFzw8DtqwL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45808a29-9818-40af-a2b5-935c31ab14df" name="Default Changelist" comment="" />
+      <created>1587690748548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587690748548</updated>
+      <workItem from="1587690750165" duration="10174000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="193" key="GridCell.Tab.0.bottom" timestamp="1587701967244">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587701967244" />
+    <state width="1493" height="193" key="GridCell.Tab.0.center" timestamp="1587701967244">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587701967244" />
+    <state width="1493" height="193" key="GridCell.Tab.0.left" timestamp="1587701967243">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587701967243" />
+    <state width="1493" height="193" key="GridCell.Tab.0.right" timestamp="1587701967244">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587701967244" />
+  </component>
+</project>

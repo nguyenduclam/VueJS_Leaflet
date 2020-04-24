@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Instance v-bind</title>
+</head>
+<body>
+<!-- Nếu sử dụng phương thức CDN lấy đường dẫn vue js trực tiếp thì không cần thẻ Temmplate -->
+<div id="app">
+    <p>Click A {{ clickA() }} times</p>
+    <p>Click B {{ clickB() }} times</p>
+    <button v-on:click="a++">Click A</button>
+    <button v-on:click="b++">Click B</button>
+</div>
+
+<script src="../../vue_js/vue.js"></script>
+<script>
+    /*** Nếu sử dụng phương thức CDN lấy đường dẫn vue js trực tiếp thì thêm thuộc tính "el" để bắt thẻ ***/
+    var app = new Vue({
+        el: '#app',
+        data() {
+            return {
+                a: 0,
+                b: 0
+            }
+        },
+        methods: {
+            clickA: function () {
+                console.log('gọi method clickA')
+                return this.a
+            },
+            clickB: function () {
+                console.log('gọi method clickB')
+                return this.b
+            }
+        }
+    })
+</script>
+</body>
+</html>
